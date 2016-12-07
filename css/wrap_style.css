@@ -6,8 +6,8 @@ textarea, input{ outline:none;}
 .clear{
 	clear:both;
 }
-body{
-	background:#3D3D3D;
+body, html{
+	background-image: url(../images/wrap_background.jpg);
 }
 #page-wrap{
 	width:350px;
@@ -28,6 +28,7 @@ body{
 	position:relative;
 }
 #myform label{
+	
 	top:10px;
 	position:relative;
 	color:white;
