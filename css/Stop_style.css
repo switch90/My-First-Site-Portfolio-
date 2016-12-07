@@ -17,6 +17,38 @@ h1 {
 	padding: 20px;	margin: 0;
 	text-align:center;
 }
+.fa-bullhorn:before{content:"\f0a1"}
+.fa-users:before{content:"\f0c0"}
+.fa-refresh:before{content:"\f021"}
+.fa.pull-left{margin-right:.3em}
+.fa.pull-right{margin-left:.3em}
+.fa-instagram:before{content:"\f16d"}
+.fa-linkedin-square:before{content:"\f08c"}
+.fa-facebook-square:before{content:"\f082"}
+.fa-facebook:before{content:"\f09a"}
+.fa-twitter:before{content:"\f099"}
+.fa-twitter-square:before{content:"\f081"}
+.fa-linkedin:before{content:"\f0e1"}
+.fa-google-plus-square:before{content:"\f0d4"}
+.fa-google-plus:before{content:"\f0d5"}
+.fa-li{position:absolute;left:-2.142857142857143em;width:2.142857142857143em;top:.14285714285714285em;text-align:center}
+ .newsletter-btn {
+	top: 12px;
+	left: 12px;
+}
+.contact-btn {
+	top: 12px;
+	right: 12px;
+}
+.about-btn {
+	bottom: 12px;
+	left: 12px;
+}
+.social-btn {
+	bottom: 12px;
+	right: 12px;
+}
+
 
 h1 small{
 	font: 0.2em normal  Arial, Helvetica, sans-serif;
@@ -113,6 +145,24 @@ ul li {
 	font-size: 48px;
 	margin-bottom: 48px;
 }
+social-icon {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: #1F1F21;
+	background: rgba(31, 31, 33, 0.25);
+	border: 1px solid #F7F7F7;
+	color: #f7f7f7;
+	transition: .25s;
+	font-size: 60px;
+	margin-bottom: 12px;
+}
+.social-icon:hover {
+	background: #1F1F21;
+	background: rgba(31, 31, 33, 0.5);
+	color: #f7f7f7;
+}
 
 
 @-moz-keyframes mymove 
@@ -132,3 +182,4 @@ ul li {
 		text-shadow:0 0 20px #00c6ff; 
 	}	
 }
+    

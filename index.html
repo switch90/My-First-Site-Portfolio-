@@ -7,13 +7,19 @@
         <meta content="IE=edge" http-equiv="X-UA-Compatible">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="css/style6.css" />
         <link href="css/harley.css" rel="stylesheet" type="text/css"/>
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'/>
+        <link href="css/demo.css" rel="stylesheet" type="text/css"/>
+        <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis|Niconne' rel='stylesheet' type='text/css' />
     </head>
     <body>
         <div class="Logo">
-            <h1>It's my portfolio site</h1>
-        </div>
+            <div id="letter-container" class="letter-container">
+				<h2>
+					<a href="#">...and then there was serendipity</a>
+				</h2>
+			</div>
+			</div>
         <div class="Social">
             <a class="icon" href="https://vk.com/fetisov322" target="_blank"><img src="images/vk.png"/></a>            
             <a class="icon" href="https://www.facebook.com/igor.zvegintsev.3" target="_blank"><img src="images/facebook.png"/></a>               
@@ -25,10 +31,10 @@
                 <li class="blk">
                     <div class="grid">
                         <figure class="effect-marley">
-                            <img alt="img11" src="/images/background.jpg"/>
+                            <img alt="img11" src="images/background.jpg"/>
                             <figcaption>
-                                <h2>GITHUB</h2>
-                                <p><img src="/images/site1.png"></p>
+                                <h3>GITHUB</h3>
+                                <p><img src="images/site1.png"></p>
                                 <a href="#">Отправить E-mail</a>
                             </figcaption>
                         </figure>
@@ -37,11 +43,11 @@
                 <li class="blk">
                     <div class="grid">
                         <figure class="effect-marley">
-                            <img alt="img11" src="/images/background.jpg"/>
+                            <img alt="img11" src="images/background.jpg"/>
                             <figcaption>
-                                <h2>GITHUB<span></span>
-                                </h2>
-                                <p><img class="image" src="/images/404error.png"></p>
+                                <h3>GITHUB<span></span>
+                                </h3>
+                                <p><img class="image" src="images/404error.png"></p>
                                 <a href="#">View more</a>
                             </figcaption>
                         </figure>
@@ -50,11 +56,11 @@
                 <li class="blk">
                     <div class="grid">
                         <figure class="effect-marley">
-                            <img alt="img11" src="/images/background.jpg"/>
+                            <img alt="img11" src="images/background.jpg"/>
                             <figcaption>
-                                <h2>GITHUB<span></span>
-                                </h2>
-                                <p><img class="image" src="/images/404error.png"></p>
+                                <h3>GITHUB<span></span>
+                                </h3>
+                                <p><img class="image" src="images/404error.png"></p>
                                 <a href="#">View more</a>
                             </figcaption>
                         </figure>
@@ -63,11 +69,11 @@
                 <li class="blk">
                     <div class="grid">
                         <figure class="effect-marley">
-                            <img alt="img11" src="/images/background.jpg"/>
+                            <img alt="img11" src="images/background.jpg"/>
                             <figcaption>
-                                <h2>GITHUB<span></span>
-                                </h2>
-                                <p><img class="image" src="/images/404error.png"></p>								
+                                <h3>GITHUB<span></span>
+                                </h3>
+                                <p><img class="image" src="images/404error.png"></p>								
                                 <a href="#">View more</a>
                             </figcaption>
                         </figure>
@@ -75,5 +81,14 @@
                 </li>
             </ul>
         </div>
+        <div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.lettering.js"></script>
+			<script type="text/javascript">
+				$(function() {
+					$("#letter-container h2 a").lettering();
+				});
+			</script>
+            </div>
     </body>
 </html>
