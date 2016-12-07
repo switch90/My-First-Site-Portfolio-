@@ -34,7 +34,7 @@ body, html{
 	color:white;
 }
 .field{
-	background:gray;
+	background: #333333;
 	padding:15px 15px 0 10px;
 	height:50px;
 	width:350px;
