@@ -1,0 +1,19 @@
+textarea, input, select {
+   display: inline-block;
+}
+form {
+   display: block;
+}
+input, select {
+   width: 120px;
+   float: left;
+   margin-top: 0.4em;
+   position: relative;
+}
+
+input[type="name"],
+textarea {
+   border: 1px solid #ccc;
+   margin-top: 2.5em; 
+   float: left;
+}
