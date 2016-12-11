@@ -22,7 +22,10 @@ html {
     text-align: center;
     font-family: Matthew Carter;
     font-size: 40px;
-    padding-top: 180px;
+
+}
+.connect{
+  border: 1px solid red;
 }
 
 h1{
